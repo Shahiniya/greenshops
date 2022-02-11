@@ -13,9 +13,10 @@ export default class App extends Component {
       <div className='main'>
         <Navbar/>
         <Section1/>
-        <Section2/>
+       <div style={{display:'flex', width:'100%',}}>
+       <Section2/>
         <Section3/>
-
+      </div>
       </div>
     )
   }

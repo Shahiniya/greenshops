@@ -4,16 +4,18 @@
 }
 .section1-left{
     width:60%;
-    margin:50px 50px;
+    margin:30px 50px;
 }
 .text1{
    font-size: 14px;
    font-weight: medium; 
+   margin:5px 10px;
 }
 
 .text2{
     font-size: 70px;
     font-weight: 600;
+    margin:2px 5px;
 }
 .planet{
     color:rgb(33, 177, 33);
@@ -22,6 +24,7 @@
 .text3{
     font-size: 14px;
     color:#727272;
+    margin:5px;
 }
 
 .section1-left button{
@@ -34,9 +37,9 @@ width: 117px;
 height: 30px;
 color:#ffff;
 text-transform: uppercase;
-background-color: rgb(23, 177, 23);
-margin:100px 400px 20px 60px;
-border-radius: 3px;;
+background-color: rgb(78, 197, 78);
+margin:70px 400px 20px 60px;
+border-radius: 5px;;
 }
 .section1-right{
     width:40%;

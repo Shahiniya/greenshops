@@ -13,7 +13,7 @@ export default class Section2 extends Component {
     }
   render() {
     return (
-      <div>
+      <div className="section21-container">
           <div className="section2-container">
           <h3>Categories</h3>
 
