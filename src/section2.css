@@ -1,0 +1,133 @@
+.section2-container{
+    width:100%;
+    
+}
+.category{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 20%;
+   background-color: #fbfbfb;
+   height:100%;;
+
+
+}
+ h3{
+    width: 30%;
+    margin:10px 220px 10px 30px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+}
+.type{
+    margin:0px 110px 20px 40px;
+    font-size: 14px;
+}
+.type p{
+    margin:8px 0px;
+}
+
+.number p{
+    margin:8px 0px;
+    text-align:right;
+    font-size: 14px;
+
+}
+
+.active{
+    border-bottom:5px solid #46A358;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color:#3D3D3D;
+}
+.price{
+   width: 20%;
+   background-color: #fbfbfb;
+
+}
+.price p{
+    width:100%;
+    margin:30px 220px 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.price h5{
+    margin:10px 220px 10px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    width:100%;
+
+}
+.range{
+    color:green;
+    width: 250px;
+    height:10px;
+    margin:40px 220px 5px 40px;
+   
+}
+
+.price button{
+    font-family:sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    width: 117px;
+    height: 30px;
+    color:#ffff;
+    text-transform: uppercase;
+    background-color: rgb(23, 177, 23);
+    margin:10px 220px 10px 40px;
+    border-radius: 5px;; 
+}
+.size1{
+    display:flex;
+    height:150px;
+    width:20%;
+    background-color: #fbfbfb;
+    /* border:4px solid green; */
+   
+}
+.size{
+    margin:0px 110px 20px 40px;
+    font-size: 14px;
+}
+    
+
+.size p{
+    margin:8px 0px;}
+.nums{
+    margin:0px 0px 30px 40px;
+
+    
+}
+.nums p{
+    margin:8px 0px;
+    text-align:right;
+    font-size: 14px;
+}
+.super{
+    width:20%;
+    background-color: rgb(225, 241, 225);
+}
+.sale{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 20px 10px 20px; 
+}
+h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.gul3{
+    width: 370px;
+    height: 370px;
+    mix-blend-mode: multiply;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px -30px;
+}
