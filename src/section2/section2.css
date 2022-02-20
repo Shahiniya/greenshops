@@ -1,11 +1,11 @@
 .section21-container{
     width:20%;
-    background-color: #4663a3;
+    /* background-color: #4663a3; */
     
 }
 .section2-container{
     width:100%;
-    background-color: #4663a3;
+    /* background-color: #4663a3; */
     
 }
 .category{
@@ -115,9 +115,11 @@
 .super{
     width:100%;
     background-color: rgb(225, 241, 225);
+    height:560px;
 }
 .sale{
     display:flex;
+    height:80px;
     justify-content: center;
     align-items: center;
     margin:0px 20px 10px 20px; 
