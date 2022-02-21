@@ -1,5 +1,6 @@
 .section21-container{
     width:20%;
+    margin:30px;
     /* background-color: #4663a3; */
     
 }
@@ -115,7 +116,7 @@
 .super{
     width:100%;
     background-color: rgb(225, 241, 225);
-    height:560px;
+    height:570px;
 }
 .sale{
     display:flex;

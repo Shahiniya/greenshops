@@ -5,6 +5,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin:10px 10px;
 }
 .greenshop{
     display:flex;
@@ -46,7 +47,7 @@ justify-content: center;
 }
 .active{
 border-bottom:5px solid #46A358;
-font-family:sans-serif;
+font-family:Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-size: 16px;
 color:#3D3D3D;
@@ -70,8 +71,12 @@ align-items: center;
 .img2{
     width:24px;
     height: 24px;
+    margin:0px 10px;
     
     
+}
+.login{
+    padding:0px 30px;
 }
 
 .login button{
@@ -79,5 +84,6 @@ align-items: center;
     height: 35px;
     font-size: 16px;
     background-color: limegreen;
-    border-radius:3px;
+    border-radius:5px;
+    cursor: pointer;
 } 

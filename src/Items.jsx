@@ -15,8 +15,8 @@ export default class Section3 extends Component {
      const {value} = this.props;
     return (
      
-             (
-                  <Card>
+             
+                  <Card >
                     <Image src={value.src} />
                     <h3>{value.title}</h3>
                     <h3>${value.price}</h3>
@@ -33,7 +33,7 @@ export default class Section3 extends Component {
                   </Card>
                   
             
-              ))
+              )
           
     
   }

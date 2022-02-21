@@ -12,12 +12,12 @@ export default class Section4 extends Component {
   render() {
     return (
       <div>
-      <Button>
-      <button className={`${this.state.active === 'button' && 'active'}`} onCklick={()=>this.setState.active({active:'1'})} >1</button>
-      <button className={`${this.state.active === 'button' && 'active'}`} onCklick={()=>this.setState.active({active:'2'})} >2</button>
-      <button className={`${this.state.active === 'button' && 'active'}`} onCklick={()=>this.setState.active({active:'3'})} >3</button>
-      <button className={`${this.state.active === 'button' && 'active'}`} onCklick={()=>this.setState.active({active:'4'})} >4</button>
-      <button className={`${this.state.active === 'button' && 'active'}`} onCklick={()=>this.setState.active({active:'5'})} >5</button>
+    <Button>
+      <button className={`${this.state.active === '1' && 'active'}`} onClick={()=>this.setState({active:'1'})} >1</button>
+      <button className={`${this.state.active === '2' && 'active'}`} onClick={()=>this.setState({active:'2'})} >2</button>
+      <button className={`${this.state.active === '3' && 'active'}`} onClick={()=>this.setState({active:'3'})} >3</button>
+      <button className={`${this.state.active === '4' && 'active'}`} onClick={()=>this.setState({active:'4'})} >4</button>
+      <button className={`${this.state.active === '5' && 'active'}`} onClick={()=>this.setState({active:'5'})} >5</button>
       </Button>
      <SectionContainer4>
         <Section4left>

@@ -14,17 +14,19 @@ width:80%;
 /* background-color:green; */
 display:flex;
 flex-wrap:wrap;
-gap:30px;
-padding-left:50px;
+gap:20px;
+/* padding-left:10px; */
 align-items:center;
-justify-content:center;
+justify-content:space-between;
+margin:10px 100px;
 
 `;
 export const Card= styled.div`
-width:400px;
+width:350px;
 height:400px;
 background-color:#fbfbfb;
 mix-blend-mode: fill;
+margin:10px 20px;
 position:relative;
 
 :hover{
@@ -69,7 +71,7 @@ margin:0px 2px;
 
 `;
 
-export const Button=styled.button`
+export const Button=styled.div`
 color:green;
 background-color:blue;
 margin:0px 50px 0px 1600px ;
@@ -99,7 +101,7 @@ export const Images =styled.img``;
 
 
 
-// Section9
+// Page 2 start
 
 
 export const Container9 = styled.div`
@@ -129,6 +131,11 @@ display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
+`;
+
+export const Mindiv =styled.div`
+`;
+export const Btndiv =styled.div`
 `;
 export const Gul1 = styled.img`
 width:100px;
@@ -300,11 +307,13 @@ export const Container11 = styled.div`
 margin:20px 120px;
 justify-content:center;
 align-items:center;
-h6{
+.span1{
+    /* background:red; */
 color:green;
 font-weight:bold;
 border-bottom:3px solid rgba(70, 163, 88, 0.5);
 margin:30px 0px;
+padding:10px 0px;
 }
 `;
 
@@ -335,12 +344,16 @@ h4{
 }
 `;
 
-export const Ellipse = styled.button`
+export const Ellipse = styled.div`
 display: flex;
 justify-content:center;
 align-items:center;
-button{
-border-radius:40%;
+span{
+border-radius:50%;
+width:10px;
+height:10px;
+background-color:green;
+margin:0px 5px;
 }
 `;
 
@@ -370,7 +383,14 @@ export const Join = styled.div`
 width:500px;
 `;
 
-export const Input = styled.input`
+export const Inputt = styled.input`
 width:10px;
+border:5px solid black;
 /* border-bottom:none;/ */
 `;
+
+
+
+
+// Page3 starts.
+

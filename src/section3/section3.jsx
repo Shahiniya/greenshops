@@ -14,10 +14,10 @@ export default class Section3 extends Component {
      
     return (
      
-      <Container>
+      <Container >
           {
               this.state.data.map((value)=>(
-                 <Item value={value} />
+                 <Item key={value.id} value={value} />
               ))
           }
     </Container>

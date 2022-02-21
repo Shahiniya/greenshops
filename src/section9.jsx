@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import Navbar from './navbar/navbar.jsx';
 // import gul1 from './section9-images/gul1.png';
 // import gul2 from './section9-images/gul2.png';
-import {Container9, Container9left, Left9, Right9,Cover, Container9right, RightTitle,Description, Facebook, Twitter, Linkedin,Mail, Title1, Title2, Container11, Ellipse, Container12} from './style'
-import {Gul1,Gul2,Icon,Size,Count,Buy,Contact,Share,Container10,Flower1,Card1,Card2,Rasm,Rasm1,Rasmcha,Join,Input} from './style';
+import {Container9,Mindiv, Container9left, Left9, Right9,Cover, Container9right, RightTitle,Description, Facebook, Twitter, Linkedin,Mail, Title1, Title2, Container11, Ellipse, Container12} from './style'
+import {Gul1,Gul2,Icon,Size,Count,Buy,Contact,Share,Container10,Flower1,Card1,Card2,Rasm,Rasm1,Rasmcha,Join,Inputt} from './style';
 import {flower, flower1, flowers,rasm} from './mock.js'
 import gul1 from './section9-images/gul1.png';
 
@@ -17,12 +17,16 @@ export default class Section9 extends Component {
          list:flower1,
          image1: gul1,
          count:1,
+         selected:{},
         rasmm: rasm,
 
      }
  }
  
     render() {
+      const {value} = this.props;
+      
+      // const getSelect = (selected)=>(this.setState({selected,count:1}))
     return (
       <div>
            <Navbar/>
@@ -32,8 +36,10 @@ export default class Section9 extends Component {
                     <Left9>
                     {
                       this.state.data.map(({id,src})=>(
+                        // <Mindiv key={id} onClick={()=>getSelect(value)} >
                         <Gul1 onClick={()=>this.setState({image1:src})}  key={id} src={src} alt='test'/> 
-                      ))
+                        // </Mindiv>
+                        ))
                     }
                     </Left9>
 
@@ -104,7 +110,7 @@ export default class Section9 extends Component {
            </Container10>
 
            <Container11>
-           <h6>Releted Products</h6>
+           <h6 className='span1'>Releted Products</h6>
            <Card1>
            {
              this.state.list.map((value)=>(
@@ -116,9 +122,9 @@ export default class Section9 extends Component {
            }
            </Card1> 
              <Ellipse>
-                <button></button>
-                <button></button>
-                <button></button>
+                <span></span>
+                <span></span>
+                <span></span>
               </Ellipse>
            </Container11>
           <Container12>
@@ -134,7 +140,7 @@ export default class Section9 extends Component {
               </Rasm>
               <Join>
               <h4>Would you like to join newsletters?</h4>
-              <Input type='text' placeholder='enter your email address...'/>
+              <input type='text' placeholder='enter your email address...'/>
               <button>Join</button>
               <p>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! </p>
               </Join>
