@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './section2.css'
-import gul3 from './section2-images/gul3.png';
-import Super from './section2-images/Super.png';
+import gul3 from '../../assets/images/gul3.png';
+import Super from '../../assets/images/Super.png';
 
 
 export default class Section2 extends Component {

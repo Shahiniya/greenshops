@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './section1.css'
-import big from './section1-images/big.png'
-import small from './section1-images/small.png'
+import big from '../../assets/images/big.png'
+import small from '../../assets/images/small.png'
 
 export default class Section1 extends Component {
   render() {

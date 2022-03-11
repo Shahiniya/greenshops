@@ -1,18 +1,18 @@
 
-import mg1 from './section3/section.3-images/mg1.png';
-import mg2 from './section3/section.3-images/mg2.png';
-import mg3 from './section3/section.3-images/mg3.png';
-import mg4 from './section3/section.3-images/mg4.png';
-import mg5 from './section3/section.3-images/mg5.png';
-import mg6 from './section3/section.3-images/mg6.png';
-import mg7 from './section3/section.3-images/mg7.png';
-import mg8 from './section3/section.3-images/mg8.png';
-import mg9 from './section3/section.3-images/mg9.png';
-import gul1 from './section9-images/gul1.png';
-import gul2 from './section9-images/gul2.png';
-import g3 from './container12-images/g3.png';
-import g2 from './container12-images/g2.png';
-import g1 from './container12-images/g1.png';
+import mg1 from './assets/images/mg1.png';
+import mg2 from './assets/images/mg2.png';
+import mg3 from './assets/images/mg3.png';
+import mg4 from './assets/images/mg4.png';
+import mg5 from './assets/images/mg5.png';
+import mg6 from './assets/images/mg6.png';
+import mg7 from './assets/images/mg7.png';
+import mg8 from './assets/images/mg8.png';
+import mg9 from './assets/images/mg9.png';
+import gul1 from './assets/images/gul1.png';
+import gul2 from './assets/images/gul2.png';
+import g3 from './assets/images/g3.png';
+import g2 from './assets/images/g2.png';
+import g1 from './assets/images/g1.png';
 
 
 

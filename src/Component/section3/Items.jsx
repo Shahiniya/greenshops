@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {flowers} from './mock';
-import {Card,Image, KorzinkaIcon, HeartIcon, SearchIcon,Total} from './style'
+import {flowers} from '../../mock';
+import {Card,Image, KorzinkaIcon, HeartIcon, SearchIcon,Total} from '../section3/style'
 
 
 export default class Section3 extends Component {

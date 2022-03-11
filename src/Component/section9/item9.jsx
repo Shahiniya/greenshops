@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Section9 from './section9'
-import { Btndiv } from './style'
+import { Btndiv } from '../style'
 
 export default class Item9 extends Component {
     constructor(props){

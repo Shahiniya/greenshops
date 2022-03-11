@@ -1,7 +1,7 @@
 
-import vector from './navbar.images/Vector.png';
-import vector1 from './navbar.images/Vector1.png';
-import vector2 from './navbar.images/Vector2.png';
+import vector from '../../assets/images/Vector.png';
+import vector1 from '../../assets/images/Vector1.png';
+import vector2 from '../../assets/images/Vector2.png';
 import React, { Component } from 'react'
 import './navbar.css';
 export default class Navbar extends Component {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import {Button,Images, Section4left, Section4right, SectionContainer4} from './style';
-import img1 from './section4-images/img1.png'
+import {Button,Images, Section4left, Section4right, SectionContainer4} from '../section4/style';
+import img1 from '../../assets/images/img1.png'
 
 export default class Section4 extends Component {
     constructor(props){
