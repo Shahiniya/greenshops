@@ -30,7 +30,8 @@ height:330px;
 /* background-color:green; */
 display:flex;
 margin:30px 70px;
-/* justify-content:space-evenly; */
+justify-content:center;
+align-items:center;
 `;
 
 export const Cardleft = styled.div`
@@ -63,7 +64,7 @@ button{
     color:white;;
     background-color:green;
     border-radius:5px;
-    margin:20px 30px 20px 300px;
+    margin:20px 30px 20px 200px;
     width:150px;
     height:40px;
 }
@@ -91,10 +92,11 @@ display:flex;
 export const Our = styled.div`
 /* background-color:lime; */
 width:100%;
-height:450px;
+height:600px;
 display:flex;
 /* flex-direction:column; */
 margin:10px 70px;
+
 `;
 export const Titel = styled.div`
 flex-direction:column;

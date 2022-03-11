@@ -1,11 +1,9 @@
 import React, {useState} from 'react'
-// import {NavLink} from 'react-router-dom';
-import {Button,Title1,Titel,Card,Cardleft,Cardright,Images,Imagi,Img, Left, Our, SectionContainer4, SummerCactus} from '../section4/style';
+import {Button,Title1,Titel,Card,Cardleft,Cardright,Images,Imagi,Img, Left, Our, SectionContainer4, SummerCactus, Title3} from '../section4/style';
 import img1 from '../../assets/images/img1.png';
 import img2 from '../../assets/images/img2.png';
 import {number} from '../../mock/number.js';
 import {flower} from '../../mock/flower.js';
-import {Section12} from '../../Component/section12/index.jsx';
 import {Section12} from '../../Component/section12/index.jsx';
 
 
@@ -53,9 +51,7 @@ export const Section4 = () => {
     
     </Cardright>
     </SummerCactus>
-    
-
-    
+      
     <Titel>
     <h2>Our Blog Posts</h2>
     <h6>We are online plant shop offering a wide range of cheap and trendy plants</h6>
@@ -78,8 +74,8 @@ export const Section4 = () => {
   } 
 
 </Our>
+<Section12 />
 
-<Section12/>
     </SectionContainer4>
     
   )
