@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import Navbar from '../../Component/navbar/navbar.jsx';
+import {Section10} from '../../Component/section10/index.jsx';
+import {Section} from '../../Component/section11/index.jsx';
+import {Section12} from '../../Component/section12/index.jsx';
 import {Container9, Container9left, Left9, Right9,Cover, Container9right, RightTitle,Description, Facebook, Twitter, Linkedin,Mail} from '../section9/style'
 import {Gul1,Gul2,Icon,Size,Count,Buy,Contact,Share} from '../section9/style';
-import {flower, flower1, flowers,rasm} from '../../mock.js'
+import {flower, flower1, flowers,rasm} from '../../mock/mock.js'
 import gul1 from '../../assets/images/gul1.png';
 
 
@@ -27,7 +29,7 @@ export default class Section9 extends Component {
       // const getSelect = (selected)=>(this.setState({selected,count:1}))
     return (
       <div>
-           <Navbar/>
+           
            <Container9>
                <Container9left>
 
@@ -88,6 +90,9 @@ export default class Section9 extends Component {
                </Share>
                </Container9right>
            </Container9> 
+           <Section10/>
+           <Section/>
+           <Section12/>
       </div>
     )
   }

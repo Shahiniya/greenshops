@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {flowers} from '../../mock';
+import {flowers} from '../../mock/mock.js';
 import {Card,Image, KorzinkaIcon, HeartIcon, SearchIcon,Total} from '../section3/style'
 
 

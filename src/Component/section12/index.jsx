@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import {Container12,Rasm,Rasm1,Rasmcha,Join} from './style'
-import {rasm} from '../../mock.js'
+import {rasm} from '../../mock/mock.js';
+// import {number} from '../../mock/number.js';
+
 
 export const Section12 = () => {
 

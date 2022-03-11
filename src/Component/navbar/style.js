@@ -1,4 +1,7 @@
-.navbar-container{
+import styled from 'styled-components';
+import {NavLink} from 'react-router-dom';
+
+export const NavbarContainer = styled.div`
     width:100%;
     height:78px;
     /* background-color: indianred; */
@@ -6,84 +9,85 @@
     justify-content: space-between;
     align-items: center;
     margin:10px 10px;
-}
-.greenshop{
+`;
+export const Greenshop = styled.div`
+
     display:flex;
     width:150px;
     /* background-color: indigo; */
     justify-content: space-between;
     align-items: center;
 
-}
-.greenshop p{
+p{
   font-size:17px; 
   font-weight:700; 
   color:#46A358;
   /* margin-left:10px; */
 }
 
-.greenshop img{
+img{
     width:34.3px;
     height: 34.3px;
 }
+`;
 
-.navbar-menu{
+
+export const NavbarMenu = styled.div`
     display: flex;
     width: 400px;
     height: 100%;
-    /* background-color: indigo; */
     justify-content: space-between;
     align-items: center;
 
-}
-.navbar-menu p {
+`;
+
+export const Title = styled(NavLink)`
 display:flex;
 font-size: 16px;
-/* width: 70px; */
 height: 100%;;
-/* background-color: ivory; */
 align-items: center;
 justify-content: center;
-}
-.active{
+`;
+
+
+/* active{
 border-bottom:5px solid #46A358;
 font-family:Arial, Helvetica, sans-serif;
 font-weight: bold;
 font-size: 16px;
 color:#3D3D3D;
 
-}
-.login{
+} */
+
+
+
+export const Login = styled.div`
 display:flex;
 width: 200px;
 height:100%;
 /* background-color: lime; */
 justify-content: space-between;
 align-items: center;
+padding:0px 30px;
 /* justify-items: center; */
-}
-
-.img1{
-    width:20px;
-    height: 20px;
-    
-}
-.img2{
-    width:24px;
-    height: 24px;
-    margin:0px 10px;
-    
-    
-}
-.login{
-    padding:0px 30px;
-}
-
-.login button{
+button{
     width: 100px;
     height: 35px;
     font-size: 16px;
     background-color: limegreen;
     border-radius:5px;
     cursor: pointer;
-} 
+}
+
+`;
+export const Img1 = styled.img` 
+    width:20px;
+    height: 20px;
+`;    
+
+export const Img2 = styled.img`
+    width:24px;
+    height: 24px;
+    margin:0px 10px;
+    `;
+    

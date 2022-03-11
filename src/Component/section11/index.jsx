@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Container11,Flower1,Card1,Card2,Ellipse } from './style';
-import {flower1} from '../../mock.js'
+import {flower1} from '../../mock/mock.js'
 
 export const Section = (value) => {
 

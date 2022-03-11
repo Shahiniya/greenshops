@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {flowers} from '../../mock';
+import {flowers} from '../../mock/mock.js';
 import {Container,} from '../section3/style'
 import Item from './Items';
 
