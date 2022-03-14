@@ -96,3 +96,9 @@ width:200px;
 height:300px;
 
 `;
+
+export const MyAccount = styled.div`
+width:200px;
+height:300px;
+
+`;
